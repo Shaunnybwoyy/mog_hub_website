@@ -53,3 +53,46 @@ hover{
   color: #ee4a09;
   border-bottom: solid thin #ee4a09;
 }
+
+.clearFix{
+    clear: both;
+}
+
+main{
+    background-image: url("images/booking.jpg");
+}
+
+#homeInfo{
+     background-color: #f9db89;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    padding-top: 15px;
+    padding-bottom: 10px; 
+}
+
+#bookings, #volunteer, #membership, #gallery{
+    background-image: none;
+    padding-left: 25px;
+}
+
+.coll, .col2, .col3{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+#bookings img{
+    width: 100px;
+}
+
+#bookings h3, #volunteer h3, #membership h3, #gallery h3{
+    font-size: 1.5em;
+}
+
+#bookings p{
+    font-size: 1em;
+}
