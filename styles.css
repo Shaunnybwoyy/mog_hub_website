@@ -12,12 +12,12 @@ body{
 
 header{
   background-color: #eeed9f
-  height: 150px;
+  height: 150% ;
   position: relative;
 }
 
 header img{
-  width: 100px;
+  width: 100%;
   position: absolute
   top: 10px;
   left: 10px;
@@ -95,4 +95,60 @@ footer{
 
 #bookings p{
     font-size: 1em;
+}
+@media only screen and (max-width: 960px){
+header{
+  background-color: red;
+  }
+}
+
+@media only screen and (max-width: 960px){
+  #wrapper{
+    width: 360px;
+  }
+}
+
+header{
+  height: 375px
+
+}
+
+#homeinfo{
+padding-right: 20px;
+width: 340px;
+}
+
+#bottomLinks ul{
+  padding-left: 60px
+}
+
+header img{
+left: 125px;
+}
+
+#topLinks li{
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+#homeInfo{
+padding-right: 20px;
+width: 340px;
+}
+
+#bottomLinks ul{
+padding-left: 0px;
+}
+
+footer p{
+padding-left: 10px;
+}
+
+#membership #col2{
+padding-left: 0px;
+}
+
+iframe {
+width: 320px;
 }
